@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+.no-padding {
+    padding: 0;
+}
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.spaced-letters {
+    letter-spacing: 10px;
+    font-size: 25px;
+}
+.letters {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+.white-panel {
+    padding: 25px;
+}
+.black-panel {
+    padding: 25px;
+    color: #E0E0E0;
+    background: #111;
+}
+.bg { 
+    /* The image used */
+    background-image: url("large-bg.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
